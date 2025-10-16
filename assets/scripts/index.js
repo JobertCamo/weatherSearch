@@ -2,7 +2,8 @@ const accessKey = '7083b6b8eab933742ebd3055ed98ecc4';
 
 document.getElementById('getWeather').addEventListener('click', async () => {
     const city = document.getElementById('city').value;
-    const url = `http://api.weatherstack.com/current?access_key=${accessKey}&query=${encodeURIComponent(city)}`;
+    const url = `/api/weather?city=${encodeURIComponent(city)}`;
+
     
     try {
         const response = await fetch(url);
