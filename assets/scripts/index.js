@@ -1,4 +1,4 @@
-const accessKey = 'f401b7878202bc5700c8ebc16f3ae394';
+const accessKey = '7083b6b8eab933742ebd3055ed98ecc4';
 
 document.getElementById('getWeather').addEventListener('click', async () => {
     const city = document.getElementById('city').value;
